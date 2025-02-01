@@ -1,0 +1,709 @@
+Um 1,Iguvine Tables,
+Um 2,Forum Nouum 2,163
+Um 3,Forum Nouum 1,161
+Um 4,Caere 1,153
+Um 40,Sabini 1,157
+Um 41,Capena 1,171
+Um 5,Asisium 2,103
+Um 6,Fulginiae 1,112
+Um 7,Tadinum 3,98
+Um 8,Meuania 2,122
+Um 9,Hispellum 2,110
+Um 10,Asisium 1,101
+Um 11,Asisium 4,107
+Um 12,Meuania 4,125
+Um 13,Meuania 5,127
+Um 14,Meuania 3,124
+Um 15,Meuania 6,128
+Um 16,Tuder 2,132
+Um 17,Plestia 1,115
+Um 18,Plestia 3,117
+Um 19,Plestia 2,116
+Um 20,Plestia 4,118
+Um 21,Ameria 1,148
+Um 22,Ameria 1,148
+Um 23,Umbria 2,87
+Um 24,Fulginiae 2,114
+Um 25,Meuania 1,121
+Um 26,Meuania 7,129
+Um 27,Tuder 5,137
+Um 28,Tuder 7,140
+Um 29,Tuder 8,141
+Um 30,Tuder 6,139
+Um 31,Sestinum 1,93
+Um 32-3,Umbria 1,85
+Um 33,Umbria 1,85
+Um 34,Nuceria Alfaterna 2,907
+Um 35,Tuder 3,134
+Um 36,Tuder 4,136
+Um 37,Tuder 9,142
+Um 38,Umbria 3,89
+Um 39,Hispellum 3,111
+nUm 1,Tuder 1,131
+nUm 2,Iguuium 1,94
+VM 1,Satricum 1,155
+VM 2,Velitrae 1,340
+VM 3,Antinum 1,338
+VM 4,Marruuium 2,334
+VM 5,Marruuium 1,333
+VM 6,Supinum 1,336
+VM 7,Marsi 1,332
+VM 8,"Forgery: see the Introduction, p. 59, no. 3",
+VM 9,Aueia 1,214
+Sp MC 1,Vrbs Saluia 1,178
+Sp MC 2,Vrbs Saluia 2,180
+Sp AP 1,Asculum Picenum 1,190
+Sp AP 2,Asculum Picenum 2,192
+Sp AP 3,Falerio 1,182
+Sp AP 4,Falerio 2,184
+Sp AP 5,Falerio 3,186
+Sp AP 6,Falerio 4,188
+Sp TE 1,Asculum Picenum 3,194
+Sp TE 2,Interamnia Praetuttiorum 4,202
+Sp TE 3,Interamnia Praetuttiorum 5,204
+Sp TE 4,Interamnia Ptaetuttiorum 6,206
+Sp TE 5,Interamnia Praeturriorum 1,196
+Sp TE 6,Interamnia Praetuttiorum 2,198
+Sp TE 7,Interamnia Praetuttiorum 3,200
+Sp CH 1,Anxanum 1,1260
+Sp CH 2,Interpromium 1,251
+Sp AQ 1,Superaequum 1,240
+Sp AQ 2,Aufinum 1,226
+Sp AQ 3,Superaequum 2,242
+Sp Ri 1 (part 1),Cures 1,167
+Sp Ri 1 (part 2),Cures 2,169
+Sp BO 1,Interpromium B,259
+Sp BA 1,Interpromium A,257
+Ps 20,Blanda 1,1336
+Ps 1,Nerulum 1,1340
+Ps 2,Scolacium 1,1482
+Ps 3,Capua 35,447
+Ps 4,Nuceria Alfaterna 3,909
+Ps 5,Surrentum 2,851
+Ps 6,Stabiae 2,843
+Ps 7,Stabiae 1,841
+Ps 8,Salernum 2,919
+Ps 9,Casinum 1,929
+Ps 10,Minturnae 1,359
+Ps 11,Nola 8,874
+Ps 12,Nola 7,872
+Ps 13,Nola 6,870
+Ps 14,Nola 11,880
+Ps 15,Nuceria Alfaterna 6,913
+Ps 16,Nola 12,882
+Ps 17,Nola 12,882
+Ps 18,Etruscan: see Ve 12,
+Ps 19,Campania 1,375
+Pg 1,Corfinium 1,261
+Pg 2,Superaequum 4,246
+Pg 3,Corfinium 29-30,292
+Pg 4,Sulmo 3,303
+Pg 5,Sulmo 2,301
+Pg 6,Superaequum 3,244
+Pg 7,Superaequum 3,244
+Pg 8,Latin,
+Pg 56,Corfinium 2,263
+Pg 57,Corfinium 3,264
+Pg 58,Corfinium 4,265
+Pg 9,Corfinium 6,267
+Pg 10,Corfinium 11,273
+Pg 11,Sulmo 13,318
+Pg 12,Sulmo 6,308
+Pg 13,Sulmo 7,310
+Pg 14,Corfinium 7,269
+Pg 15,Sulmo 4,305
+Pg 16,Sulmo 8,312
+Pg 17,Sulmo 5,307
+Pg 18,Sulmo 10,315
+Pg 19,Sulmo 9,314
+Pg 20,Sulmo 11,316
+Pg 21,Sulmo 18,325
+Pg 22,Sulmo 17,324
+Pg 23,Corfinium 31,294
+Pg 24,Corfinium 20,283
+Pg 25,Corfinium 23,286
+Pg 26,Superaequum 6,250
+Pg 27,Corfinium 35,298
+Pg 28,Sulmo 14,320
+Pg 29,Sulmo 22,330
+Pg 30,Sulmo 21,329
+Pg 59,Corfinium 27,290
+Pg 31,Corfinium 21,284
+Pg 32,Corfinium 13,276
+Pg 33,Corfinium 16,279
+Pg 34,Sulmo 15,321
+Pg 35,Sulmo 23,331
+Pg 36,Sulmo 16,323
+Pg 37,Corfinium 18,281
+Pg 38,Corfinium 15,278
+Pg 39,Corfinium 14,277
+Pg 40,Corfinium 34,297
+Pg 41,Corfinium 19,282
+Pg 42,Corfinium 9,271
+Pg 43,Corfinium 33,296
+Pg 44,Corfinium 5,266
+Pg 45,Sulmo 20,328
+Pg 46,Sulmo 19,327
+Pg 47,Corfinium 25,288
+Pe 48,Corfinium 22,285
+Pg 49,Corfinium 17,280
+Pg 50,Corfinium 12,275
+Pg 51,Latin,
+Pg 52,Corfinium 24,287
+Pg 53,Corfinium 10,272
+Pg 54,Latin,
+Pg 55,"Latin: see Vetter 215, x",
+nPg 1,Italia 1,67
+nPg 2,Italia 1,67
+nPg 3,Italia 1,67
+nPg 4,Italia 1,67
+nPg 5,Italia 1,67
+nPg 6,Italia 1,67
+nPg 7,Italia 1,67
+nPg 8,Italia 1,67
+MV 1,Teate Marrucinorum 2,229
+MV 2,Incerulae 1,219
+MV 11,Interpromium 3,254
+MV 12,Incerulae 2,221
+MV 3,Interpromium 2,253
+MV 4,Teate Marrucinorum 5,236
+MV 5,Incerulae 4,224
+MV 10,Peltuinum 1,216
+MV 6,Teate Marrucinorum 4,235
+MV 7,Teate Marrucinorum 3,234
+MV 8,Teate Marrucinorum 6,237
+MV 9,Teate Marrucinorum 7,239
+Fr 1,Histonium 1,1265
+Fr 2,Pallanum 1,1253
+Fr 3,Larinum 2,1282
+Fr 4,Histonium 7,1274
+Fr 5,Histonium 5,1271
+Fr 6,Frentani 1,1250
+Fr 7,"Vestini, Marrucini, Paeligni, Marsi 1",209
+Fr 8,Histonium 10,1278
+Fr 9,*Frentiae 1,1248
+Fr 10,Larinum 6,1287
+Fr 11,Teanum Apulum 2,1294
+Fr 12,Histonium 9,1277
+Fr 13,Histonium 6,1272
+Fr 14,Histonium 2,1267
+Fr 15,Histonium 11,1279
+Fr 16,Histonium 12,1280
+tFr 1,Teanum Apulum 5,1300
+nFr 1,*Frentrum 1,1252
+nFr 2,Larinum 1,1281
+nFr 3,Teanum Apulum 1,1292
+Sa 1,Teruentum 34,1200
+Sa 2,Teruentum 36,1208
+Sa 3,Teruentum 4,1150
+Sa 4,Teruentum 8,1156
+Sa 5,Teruentum 11,1163
+Sa 6,Teruentum 18,1174
+Sa 7,Teruentum 18,1174
+Sa 8,Teruentum 21,1181
+Sa 9,Teruentum 33,1198
+Sa 10,Teruentum 16,1171
+Sa 11,Teruentum 15,1170
+Sa 12,Teruentum 17,1173
+Sa 13,Teruentum 12,1165
+Sa 14,Atina 1,935
+Sa 15,Fagifulae 1,1219
+Sa 16,Teruentum 9,1159
+Sa 17,Aufidena 1,1235
+Sa 18,Aufidena 2,1237
+Sa 19,Teruentum 10,1161
+Sa 20,Bouianum 40,1036
+Sa 21,Teruentum 5,1152
+Sa 22,Bouianum or Saepinum not Aesernia 1,985
+Sa 23,Teruentum 38,1211
+Sa 24,Teruentum 20,1179
+Sa 25,Bouianum 97,1095
+Sa 59,Saepinum 4,1136
+Sa 60,Bouianum 41,1037
+Sa 26,Teruentum 35,1207
+Sa 27,Bouianum 116,1121
+Sa 61,Aquinum 2,931
+Sa 28,Teruentum 19,1177
+Sa 29,Bouianum 39,1035
+Sa 30,Fagifulae 3,1222
+Sa 31,Saepinum 2,1132
+Sa 32,Campania or Samnium 5,370
+Sa 33,Bouianum 107,1111
+Sa 34,Bouianum 108,1113
+Sa 35,Teruentum 25,1186
+Sa 36,Bouianum 98,1097
+Sa 37,Atina 1,935
+Sa 38,Teruentum 2,1148
+Sa 39,Teruentum 3,1149
+Sa 40,Atina 1,935
+Sa 41,Allifae 2,584
+Sa 42,Saepinum 3,1134
+Sa 43,Bouianum 42,1038
+Sa 44,Fagifulae 2,1220
+Sa 45,Teruentum 23,1184
+Sa 46,Bouianum 44,1040
+Sa 47,Bouianum 109,1114
+Sa 48,Bouianum 99,1099
+Sa 49,Fagifulae 5,1225
+Sa 50,Bouianum 104,1104
+Sa 51,Bouianum 66,1062
+Sa 52,Bouianum 45,1041
+Sa 53,Bouianum 46,1042
+Sa 54,Bouianum 72,1068
+Sa 55,Bouianum 32,1028
+Sa 56,Fagifulae 5,1225
+Sa 57,Teruentum 27,1190
+Sa 58,Aquinum 3,932
+tSa 1,Bouianum 3,991
+tSa 2,Bouianum 1,987
+tSa 3,Bouianum 2,989
+tSa 4,Bouianum 27,1021
+tSa 24,Bouianum 27,1021
+tSa 5,Bouianum 11,1000
+tSa 6,Bouianum 13,1004
+tSa 7,Bouianum 16,1008
+tSa 8,Bouianum 12,1002
+tSa 9,Bouianum 15,1007
+tSa 10,Bouianum 10,998
+tSa 11,Bouianum 14,1006
+tSa 12,Bouianum 8,996
+tSa 13,Bouianum 9,997
+tSa 36,Bouianum 9,997
+tSa 14,Bouianum 21,1014
+tSa 15,Bouianum 5,993
+tSa 16,Bouianum 23,1016
+tSa 17,Bouianum 17,1009
+tSa 18,Bouianum 6,994
+tSa 19,Bouianum 20,1013
+tSa 20,Bouianum 19,1011
+tSa 21,Bouianum 24,1017
+tSa 22,Bouianum 7,995
+tSa 23,Bouianum 26,1020
+tSa 25,Bouianum 26,1020
+tSa 26,Bouianum 28,1023
+tSa 27,Bouianum 119,1125
+tSa 29,Bouianum 119,1125
+tSa 28,Bouianum 119,1125
+tSa 30,Bouianum 83,1079
+tSa 31,Bouianum 18,1010
+tSa 32,Bouianum 22,1015
+tSa 33,Bouianum 84,1080
+tSa 34,Bouianum 4,992
+tSa 35,Bouianum 31,1027
+tSa 37,Bouianum 36,1032
+tSa 38,Bouianum 85,1081
+tSa 39,Bouianum 92,1089
+tSa 40,Bouianum 90,1086
+tSa 41,Saepinum 1,1131
+tSa 42,Bouianum 118,1124
+tSa 43,Teruentum 44,1218
+tSa 44,Bouianum 110,1115
+tSa 45,Aufidena 7,1244
+tSa 46,Bouianum 82,1078
+tSa 47,Teruentum 30,1193
+tSa 48,Teruentum 29,1192
+nSa 1,Allifae 1,581
+nSa 2a,Cubulteria 1,580
+nSa 2b,Non-existent,
+nSa 3,Non-existent,
+nSa 4,Campania Coinage 4,383
+nSa 5,Latin,
+nSa 6,Aquilonia 1,975
+nSa 7,Meles 1,976
+Hi 1,Aeclanum 4,961
+Hi 2,Aeclanum 10,968
+Hi 3,Abellinum 1,945
+Hi 4,Aeclanum 3,959
+Hi 5,Aeclanum 2,958
+Hi 6,Aeclanum 1,957
+Hi 7,Saepinum 10,1143
+Hi 8-9,Abellinum 5,951
+Hi 10,Abellinum 3,949
+tHi 1,Aeclanum 12,970
+tHi 2,Aeclanum 7,965
+tHi 3,Aeclanum 8,966
+tHi 4,Latin: [-?-]NIO,
+tHi 5,Abellinum 6,952
+tHi 6,Abellinum 4,950
+nHi 1,Campania Coinage 2,381
+He 1,Anagnia 1,343
+He 2,Anagnia 13,355
+He 3,Anagnia 14,357
+Si 1,Teanum Sidicinum 34,572
+Si 2,Venafrum 1,977
+Si 3,Teanum Sidicinum 2,532
+Si 4,Teanum Sidicinum 30,568
+Si 5,Teanum Sidicinum 26,563
+Si 6,Teanum Sidicinum 27,565
+Si 20,Teanum Sidicinum 28,566
+Si 21,Teanum Sidicinum 29,567
+Si 22,Teanum Sidicinum 31,569
+Si 7,Teanum Sidicinum 17,548
+Si 8,Teanum Sidicinum 18,549
+Si 9,Teanum Sidicinum 19,551
+Si 10,Teanum Sidicinum 23,557
+Si 11,Teanum Sidicinum 22,555
+Si 12,Teanum Sidicinum 21,553
+Si 13,Teanum Sidicinum 20,552
+Si 14,Teanum Sidicinum 9,540
+Si 15,Teanum Sidicinum 6,537
+Si 16,Teanum Sidicinum 10,541
+Si 17,Teanum Sidicinum 11,542
+Si 18,Teanum Sidicinum 8,539
+Si 19,Teanum Sidicinum 33,571
+tSi 1,Venafrum 5,982
+nSi 1,Teanum Sidicinum 1,530
+nSi 2,Campania Coinage 3,382
+nSi 3,Phistelia 1,586
+Cp 1,Capua 43,460
+Cp 2,Capua 38,453
+Cp 3,Capua 40,456
+Cp 4,Capua 36,450
+Cp 5,Capua 37,452
+Cp 6,Capua 41,458
+Cp 7,Capua 39,455
+Cp 8,Capua 15,406
+Cp 9,Capua 16,408
+Cp 10,Capua 9,396
+Cp 11,Capua 4,388
+Cp 12,Capua 5,390
+Cp 13,Capua 23,421
+Cp 14,Capua 6,392
+Cp 15,Capua 8,395
+Cp 16,Capua 7,393
+Cp 17,Capua 19,414
+Cp 18,Capua 18,412
+Cp 19,Capua 3,386
+Cp 20,Capua 13,403
+Cp 21,Capua 11,400
+Cp 22,Capua 12,402
+Cp 23,Capua 10,398
+Cp 24,Capua 29,434
+Cp 25,Capua 20,415
+Cp 26,Capua 14,404
+Cp 27,Capua 28,432
+Cp 28,Capua 27,430
+Cp 29,Capua 26,428
+Cp 30,Capua 25,426
+Cp 31,Capua 22,419
+Cp 32,Capua 21,417
+Cp 33,Capua 24,423
+Cp 34,Capua 24,423
+Cp 35,Capua 17,410
+Cp 36,Capua 33,441
+Cp 37,Capua 34,443
+Cp 38,Capua 47,468
+Cp 39,Capua 49,471
+Cp 40,Capua 48,470
+Cp 41,Capua 45,464
+Cp 42,Capua 32,439
+Cp 43,Capua 30,436
+Cp 44,Capua 46,467
+tCp 1,Capua 52,475
+tCp 2,Capua 52,475
+tCp 3,Capua 52,475
+tCp 4,Misread specimen of tCp 1,
+nCp 1,Capua 1,384
+nCp 2,Capua 2,385
+Po 1,Pompei 13,637
+Po 2,Pompei 12,635
+Po 3,Pompei 24,656
+Po 4,Pompei 21,650
+Po 5,Pompei 9,631
+Po 6,Pompei 8,628
+Po 7,Pompei 11,634
+Po 8,Pompei 19,647
+Po 9,Pompei 20,648
+Po 10,Pompei 25,659
+Po 11,Pompei 18,645
+Po 12,Pompei 42,691
+Po 13,Pompei 22,652
+Po 14,Pompei 23,653
+Po 15,Pompei 14,640
+Po 16,Pompei 16,642
+Po 17,Pompei 17,644
+Po 18,"Forgery: see the Introduction, p. 60, no. 22",
+Po 19,Pompei 27,662
+Po 20,Pompei 36,681
+Po 21,Pompei 39,687
+Po 22,Pompei 37,683
+Po 23,Pompei 114,793
+Po 24,Pompei 114,793
+Po 25,Pompei 114,793
+Po 26,Pompei 114,793
+Po 27,Pompei 114,793
+Po 28,Pompei 114,793
+Po 29,Pompei 41,689
+Po 30,Pompei 26,661
+Po 31,Pompei 15,641
+Po 32,"Described by Conway, pp. 66-7, N. vi, as ‘a small circular altar of marble whose surface had been much broken, standing in the Casa della piccola Fontana’, Reg. V1, 8, 23-24 (see Fiorelli, Pompeianarum Antiquitatum Historia II, 4 (1819-30) (1862) pp. 190-203), but found by neither Rosalba Antonini nor us. We have the gravest doubts whether the object was an altar, rather than the base of a marble basin, whether it was inscribed (Conway: 'I noticed what appeared to be the remains of letters ... but they and still more the remains of what I took to be a line beneath them were too faint to be read with certainty’), and if so whether it was inscribed in Oscan. We deliberately exclude the text, but would not be surprised if it belonged with Pompei 44 (11)",
+Po 33,Pompei 97,764
+Po 34,Pompei 2,617
+Po 35,Pompei 3,619
+Po 36,Pompei 4,621
+Po 37,Pompei 5,623
+Po 38,Pompei 6,624
+Po 39,Pompei 7,626
+Po 40,Pompei 34,676
+Po 41,Pompei 31,671
+Po 42,Pompei 49,706
+Po 43,Pompei 47,704
+Po 44,Pompei 48,705
+Po 45,Pompei 30,669
+Po 46,Pompei 35,679
+Po 47,Pompei 53,712
+Po 48,Pompei 52,711
+Po 49,Pompei 54,714
+Po 50,Pompei 33,675
+Po 51,Teanum Sidicinum 24,558
+Po 52,Pompei 55,716
+Po 53,Pompei 45,699
+Po 54,Pompei 1,615
+Po 55,Pompei 38,685
+Po 56,Pompei 50,707
+Po 57,Pompei 51,709
+Po 58,Pompei 40,688
+Po 59,Pompei 63,724
+Po 60,Pompei 61,722
+Po 61,Pompei 62,723
+Po 62,Pompei 60,721
+Po 63,Pompei 67,728
+Po 64,Pompei 144,836
+Po 65,Pompei 65,726
+Po 66,Pompei 46,702
+Po 67,Pompei 147,839
+Po 68,Pompei 146,838
+Po 69,Pompei 58,719
+Po 70,Pompei 59,720
+Po 71,Pompei 139,830
+Po 72,Pompei 32,673
+Po 73,Pompei 141,833
+Po 74,"Latin: see M.11. Crawford, “Latin or Greek or Messapic not Italic’ (forthcoming)",
+Po 75,"= Ve 67 = M. della Corte, NSc 1929, pp. 470-6, ‘Pompei. Iscrizioni sporadiche’, at pp. 473, fig. 6, 476; R. Antonini, SE 45 (1977) p. 338; the ‘inscription’ consists of random scratches 0.27 m above the pavement (!)",
+Po 76,Pompei 64,725
+Po 77,Pompei 68,729
+Po 78,See Pompei 44,695
+Po 79,Pompei 72,733
+Po 80,Pompei 28,665
+Po 81,Pompei 28,665
+Po 82,Pompei 28,665
+Po 83,Pompei 28,665
+Po 84,Pompei 28,665
+Po 85,Pompei 140,832
+Po 103,Pompei 142,834
+Po 86,Pompei 95,760
+Po 87,Pompei 91,756
+Po 88,Pompei 86,749
+Po 89,Pompei 29,668
+Po 90,Pompei 90,755
+Po 91,Pompei 10,633
+Po 92,Pompei 82,745
+Po 93,Pompei 78,739
+Po 94,Pompei 79,741
+Po 102,Pompei 79,741
+Po 95,Pompei 81,744
+Po 96,Pompei 80,743
+Po 97,Pompei 76,737
+Po 98,Pompei 77,738
+Po 99,Pompei 75,736
+Po 100,Pompei 75,736
+Po 101,Pompei 74,735
+tPo 1,Pompei 108,783
+tPo 2,Pompei 126,812
+tPo 3,Pompei 136,826
+tPo 4,Pompei 131,821
+tPo 5,Pompei 96,762
+tPo 6,Pompei 120,804
+tPo 23,Pompei 120,804
+tPo 7-9,Pompei 101,770
+tPo 10,Pompei 117,798
+tPo 11,Pompei 117,798
+tPo 12,Pompei 137,827
+tPo 13,Pompei 124,809
+tPo 14,Pompei 135,825
+tPo 15,Pompei 127,814
+tPo 16,Pompei 115,796
+tPo 17,Pompei 114,793
+tPo 18,Pompei 134,824
+tPo 19,Pompei 99,766
+tPo 20,Pompei 125,810
+tPo 21,Pompei 119,803
+tPo 22,Pompei 109,785
+tPo 24,Pompei 120,804
+tPo 25,Pompei 121,805
+tPo 26 (part),Pompei 123,808
+tPo 27,Pompei 122,807
+tPo 37,Pompei 122,807
+tPo 28,Pompei 100,768
+tPo 29,Pompei 110,786
+tPo 41,Pompei 110,786
+tPo 30,Pompei 116,797
+tPo 31,Pompei 94,759
+tPo 32,Pompei 128,815
+tPo 33,Pompei 128,815
+tPo 34,Pompei 128,815
+tPo 35,Pompei 118,801
+tPo 36,Pompei 129,818
+tPo 38,Pompei 98,765
+tPo 39,Pompei 113,792
+tPo 40,Pompei 107,782
+tPo 42,Teruentum 1,1147
+tPo 43,Pompei 105,780
+Cm 1,Abella 1,887
+Cm 2,Surrentum 1,849
+Cm 3,Abella 3,894
+Cm 4,Cumae 2,491
+Cm 5,Cumae 3,493
+Cm 6,Nola 3,864
+Cm 7,Nola 2,862
+Cm 8,Abella 2,893
+Cm 47,Nola 5,868
+Cm 48,Nola 4,866
+Cm 9,Cumae 4,495
+Cm 10,Herculaneum 1,605
+Cm 11,Cumae 5,498
+Cm 12,Capua 31,437
+Cm 13,Cumae 9,507
+Cm 14,Cumae 8,504
+Cm 15,Cumae 10,509
+Cm 16,Surrentum 4,854
+Cm 17,Cumae 7,502
+Cm 18,Cumae 13,515
+Cm 19,Cumae 14,517
+Cm 20,Cumae 11,512
+Cm 21,Cumae 12,513
+Cm 22,Saticula 1,593
+Cm 23,Saticula 5,599
+Cm 24,Saticula 4,597
+Cm 25,Saticula 3,596
+Cm 26,Saticula 2,595
+Cm 27,Saticula 6,600
+Cm 28,Saticula 7,602
+Cm 29,Saticula 8,603
+Cm 30,Campania 2,376
+Cm 31,Picentia 3,927
+Cm 32,Cumae 16,520
+Cm 33,Cumae 15,518
+Cm 34,Caudium 3,943
+Cm 35,Nuceria Alfaterna 5,912
+Cm 36,Nuceria Alfaterna 4,911
+Cm 37,Picentia 2,926
+Cm 38,Herculaneum 2,608
+Cm 39,Herculaneum 2,608
+Cm 43,Herculaneum 2,608
+Cm 44,Herculaneum 2,608
+Cm 40,Capua 51,473
+Cm 41,Cumae 6,500
+Cm 42,Herculaneum 3,611
+Cm 45,Salernum 6,924
+Cm 46,Campania 3,377
+tCm 1,Stabiae 3,844
+tCm 2,Cumae 20,524
+tCm 3,Stabiae 4,845
+tCm 4,= tPo 20,810
+tCm 5,Abella 5,897
+tCm 6,Abella 4,896
+tCm7,Acerrae 1,592
+nCm 1,*Irinthum 1,847
+nCm 2,Atella 1,487
+nCm 3,Nuceria Alfaterna 1,903
+nCm 4,Calatia 1,479
+nCm 5,Hurietes 1,858
+nCm 6,Fenserni 1,489
+nCm 7,Campania Coinage 1,380
+ZO 1,Campania or Samnium 6,372
+ZO 2,Campania or Samnium 2,366
+ZO 3,Campania or Samnium 1,364
+ZO 4,Campania or Samnium 3,368
+ZO 5,"Etruscan: see Ve 179, b",
+Lu 1,Bantia 1,1437
+Lu 62,Buxentum 1,1328
+Lu 2,Atina Lucana 1,1353
+Lu 3,Cosilinum 1,1355
+Lu 4,Numistro 1,1360
+Lu 5,Potentia 1,1364
+Lu 6,Potentia 9,1375
+Lu 7,Potentia 10,1378
+Lu 8,Potentia 3,1367
+Lu 9,Potentia 8,1373
+Lu 10,Potentia 4,1369
+Lu 11,Potentia 5,1370
+Lu 12,Potentia 2,1366
+Lu 13,Potentia 40,1424
+Lu 14,Paestum 1,1321
+Lu 15,Potentia 17,1391
+Lu 16,Potentia 13,1384
+Lu 17,Potentia 32,1415
+Lu 18,Lucania or Brettii or Sicilia 3,1312
+Lu 19,Lucania 1,1317
+Lu 20,Potentia 26,1406
+Lu 21,Potentia 25,1404
+Lu 22,Potentia 28,1408
+Lu 23,Crimisa 1,1468
+Lu 24,Crimisa 2,1470
+Lu 25,Vibo 2,1496
+Lu 26,Lucania or Brettii or Sicilia 1,1309
+Lu 27,Potentia 12,1382
+Lu 28,Potentia 20,1395
+Lu 29,Potentia 21,1397
+Lu 30,Potentia 24,1403
+Lu 31,Potentia 22,1399
+Lu 32,Potentia 16,1389
+Lu 33,Potentia 15,1388
+Lu 34,Potentia 14,1386
+Lu 35,Potentia 11,1380
+Lu 36,Potentia 19,1394
+Lu 37,Metapontum 1,1450
+Lu 38,Bantia 2,1446
+Lu 39,Anxia 1,1433
+Lu 40,Cosilinum 1,1355
+Lu 41,Tegianum 1,1358
+Lu 42,Paestum 3,1324
+Lu 43,Teuranus Ager 1,1478
+Lu 44,Crimisa 3,1472
+Lu 45,Buxentum 3,1333
+Lu 46,Laos 2,1344
+Lu 47,Thurii Copia 1,1461
+Lu 48,Italia 5,79
+Lu 49,Italia 4,78
+Lu 50,Italia 6,80
+Lu 51,Italia 3,77
+Lu 53,Italia 3,77
+Lu 52,Italia 8,82
+Lu 54,Italia 7,81
+Lu 55,Italia 2,75
+Lu 56,Italia 2,75
+Lu 57,Potentia 30,1411
+Lu 61,Heraclea 2,1457
+Lu 58,"Latin: see M.H. Crawford, ‘Greek or Latin or Messapic not Italic’ (forthcoming)",
+Lu 59,Potentia 31,1413
+Lu 60,Potentia 27,1407
+Lu 63,Laos 3,1348
+Lu 64,Potentia 23,1401
+tLu 1,Potentia 44,1431
+tLu 2,"= Poce 197 = E. Perotti, Klearchos 16, 61-4 (1974) pp. 77-104, ‘Bolli laterizi rinvenuti a Vibo Valentia’, at pp. 77-82, no. 4: XXX; the stamp is as likely to be of a Greek or of a Roman as in Oscan",
+tLu 3-5,Vibo 5,1499
+tLu 6,Vibo 8,1503
+tLu 7,Vibo 7,1502
+tLu 8,Vibo 6,1501
+tLu 9,Vibo 3,1497
+tLu 10,Potentia 42,1428
+tLu 11,Nuceria Brettia 2,1494
+tLu 12,Messapic,
+tLu 13,Tauriani 1,1505
+tLu 14,= tMe 1,1512
+tLu 15,Velia 1,1327
+nLu 1,Lucani 1,1320
+nLu 2,"Latin, the coinage of Paestum as a Latin colony: see M.H. Crawford, in G. Bradley & J.-P. Wilson (edd.), Greek and Roman Colonization (Swansea 2006) pp. 59-72, ‘From Poseidonia to Paestum via the Lucanians’, at p. 64",
+nLu 3,Volcei 1,1352
+nLu 4,= nHi 1,381
+nLu 5,Vibo 1,1495
+Me 1,Messana 4,1515
+Me 3,Messana 4,1515
+Me 2,Messana 5,1517
+Me 4,Messana 6,1519
+Me 5,Messana 7,1521
+tMe 1,Messana 2,1512
+tMe 2,Messana 8,1523
+tMe 3,Lucania or Brettii or Sicilia 5,1316
+nMe 1,Messana 1,1511
