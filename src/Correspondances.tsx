@@ -6,7 +6,7 @@ export interface Correspondance {
   page: number;
 }
 
-const csvText: string = await (await fetch( "/indices.csv" )).text();
+const csvText: string = await (await fetch( import.meta.env.BASE_URL + "/indices.csv" )).text();
 
 function readIndices() {
   const corArray: string[][] = csv.toArrays(csvText);

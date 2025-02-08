@@ -98,7 +98,7 @@ function PdfViewer ({pdfFile, pageNumber} :
         //type="application/pdf" width="100%" height="100%"></object>
       <iframe
         className='pdfviewer'
-        src={"/pdfjs-dist/web/viewer.html?file=" + URL.createObjectURL(pdfFile) + "#page=" + pageNumber.toString()}/>
+        src={import.meta.env.BASE_URL + "/pdfjs-dist/web/viewer.html?file=" + URL.createObjectURL(pdfFile) + "#page=" + pageNumber.toString()}/>
     );
 }
 
