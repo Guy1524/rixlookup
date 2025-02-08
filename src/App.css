@@ -65,10 +65,19 @@
 }
 
 .pdfviewer {
+  border: 0;
   width: 100%;
-  height: 99vh;
+  height: 100vh;
+}
+
+.landpage {
+  height: fit-content;
+}
+
+.instructions {
+  text-align: left;
 }
 
 .controls {
-  height: fit-content;
+  text-align: center;
 }

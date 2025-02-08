@@ -1,9 +1,5 @@
 import { ReactElement, useState, ChangeEvent } from 'react'
 
-import { pdfjs, Document, Page } from 'react-pdf'
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
-import 'react-pdf/dist/Page/TextLayer.css';
-
 import { Correspondance } from './Correspondances.tsx'
 import Correspondances from './Correspondances.tsx'
 
@@ -92,34 +88,17 @@ function RixBar( {setPageNumber} : { setPageNumber: (id: PageNumber) => void } )
   );
 }
 
-function PdfViewer ({pdfFile, pageNumber, setPageNumber} : 
-  {pdfFile: File, pageNumber: number, setPageNumber: (id: number) => void}) {
-    if (0) { // given up react-pdf path. faster, but bad resolution and hard to wrap in css
-      return (
-        <div className="pdfviewer">
-          <div>
-            <button onClick={() => {setPageNumber(pageNumber - 1)}}>
-              Previous
-            </button>
-            {pageNumber}
-            <button onClick={() => {setPageNumber(pageNumber + 1)}}>
-              Next
-            </button>
-          </div>
-          <Document file={pdfFile} onLoadError={console.error} className={"pdfcanvas"}>
-            <Page
-              pageNumber={pageNumber}
-              renderAnnotationLayer={false}
-              height={document.documentElement.clientHeight * 0.70}/>
-          </Document>
-        </div>
-      );
-    }
+function PdfViewer ({pdfFile, pageNumber} : 
+  {pdfFile: File, pageNumber: number}) {
+
     return (
-      <object
+      //<object
+        //className='pdfviewer'
+        //data={URL.createObjectURL(pdfFile) + "#page=" + pageNumber.toString()}
+        //type="application/pdf" width="100%" height="100%"></object>
+      <iframe
         className='pdfviewer'
-        data={URL.createObjectURL(pdfFile) + "#page=" + pageNumber.toString()}
-        type="application/pdf" width="100%" height="100%"></object>
+        src={"/pdfjs-dist/web/viewer.html?file=" + URL.createObjectURL(pdfFile) + "#page=" + pageNumber.toString()}/>
     );
 }
 
@@ -127,9 +106,9 @@ interface BookNumber{bookNumber: number, pdfNumber?: never};
 interface PdfNumber{pdfNumber: number, bookNumber?: never};
 type PageNumber = BookNumber | PdfNumber;
 
-function PdfHelper( {pageNumber, setPdfNumber} : {pageNumber: PageNumber, setPdfNumber: (id: number) => void} ) {
+function PdfHelper( {pageNumber} : {pageNumber: PageNumber} ) {
   const [pdfFile, setPdfFile] = useState<File | null>(null);
-  const [controls, setControls] = useState(true);
+  const [landpage, setLandPage] = useState(true);
   const [offsetOne, setOffsetOne] = useState(0);
   const [offsetTwo, setOffsetTwo] = useState(0);
   const [offsetThree, setOffsetThree] = useState(0);
@@ -160,31 +139,59 @@ function PdfHelper( {pageNumber, setPdfNumber} : {pageNumber: PageNumber, setPdf
 
   return (
     <div className="pdfhelper">
-      {pdfFile && !controls ? (
+      {pdfFile && !landpage ? (
         <PdfViewer
           pdfFile={pdfFile}
           pageNumber={pdfpage}
-          setPageNumber={setPdfNumber}
         />
       ) : (
-        <div className="controls">
+        <div className="landpage">
           <h1>Imagines Italicae: Rix Index Lookup</h1>
-          <h4>Upload a scan of your Imagines Italicae copy, and set the offset values to correct any deviations in page number</h4>
-          <input
-            type="file"
-            accept="application/pdf"
-            onChange={updateFile}
-          />
-          <br/>
-          Volume I offset: <input id="vol1in" type="number" value={offsetOne} onChange={(e) => setOffsetOne(e.target.valueAsNumber)}/><br/>
-          Volume II offset: <input id="vol2in" type="number" value={offsetTwo} onChange={(e) => setOffsetTwo(e.target.valueAsNumber)}/><br/>
-          Volume III offset: <input id="vol3in" type="number" value={offsetThree} onChange={(e) => setOffsetThree(e.target.valueAsNumber)}/><br/>
-          Double Paged: <input id="doubled" type="checkbox" checked={doubled} onChange={(e) => setDoubled(e.target.checked)}/><br/>
-          {pdfFile ? (
-            <button onClick={() => {setControls(false)}}>
-              Go
-            </button>
-          ) : <></>}
+          <div className="instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Are you using Rix’s Sabellische Texte, and want to look up an inscription in Imagines Italicae?
+                Just type the Rix designation (e.g., Um 11) in the top left corner of this page and a list of
+                inscriptions matching your search will appear below (in grey).</li>
+              <li>Click on the inscription that you want, and the box at the bottom left of the page will show
+                you the Imagines Italicae designation (for Um 11, it’s Asisium 4), along with the volume and page
+                number (Volume 1, page 107).</li>
+              <li>If you own your own pdf of Imagines Italicae (in a single file), you can upload it to this
+                interface by clicking on the ’Select file’ button below, and when you select an inscription from
+                the left menu, the correct page will load in this space.</li>
+              <li>If the PDF viewer takes you to page that's off from the intended inscription, you can alleviate
+                this by setting the offset fields:<br/>For example, if you consistently see the page 2 pages
+                ahead of the selected inscription, try setting the offset field for the relevant volume to '2'.
+                <br/>Conversely, use a negative offset if you are led to a position ahead of the selected inscription.
+              </li>
+            </ol>
+
+            <h4>Credits</h4>
+            This online tool was created during the Wintersemester 2024–2025 by Derek Lesho and Fujia Zhang,
+            as part of the graduate seminar Italische Sprachwissenschaft, taught by Chiara Bozzone (LMU München).
+            If you do not already know why this tool is needed, you can read about it <a href="https://bmcr.brynmawr.edu/2013/2013.06.17/">here</a>
+            <br/><br/>
+            For help and feeback contact <a href="mailto:D.Lesho@campus.lmu.de">D.Lesho@campus.lmu.de</a> or <a href="mailto:dereklesho52@gmail.com">dereklesho52@gmail.com</a>
+          </div>
+          
+          <div className="controls">
+          <h4>Imagines Italicae copy upload</h4>
+            <input
+              type="file"
+              accept="application/pdf"
+              onChange={updateFile}
+            />
+            <br/>
+            Volume I offset: <input id="vol1in" type="number" value={offsetOne} onChange={(e) => setOffsetOne(e.target.valueAsNumber)}/><br/>
+            Volume II offset: <input id="vol2in" type="number" value={offsetTwo} onChange={(e) => setOffsetTwo(e.target.valueAsNumber)}/><br/>
+            Volume III offset: <input id="vol3in" type="number" value={offsetThree} onChange={(e) => setOffsetThree(e.target.valueAsNumber)}/><br/>
+            Double Paged: <input id="doubled" type="checkbox" checked={doubled} onChange={(e) => setDoubled(e.target.checked)}/><br/>
+            {pdfFile ? (
+              <button onClick={() => {setLandPage(false)}}>
+                Go
+              </button>
+            ) : <></>}
+          </div>
         </div>
       )}
     </div>
@@ -199,8 +206,7 @@ function App() {
       <RixBar setPageNumber={setPageNumber}/>
       <div className="mainview">
         <PdfHelper
-          pageNumber={pageNumber}
-          setPdfNumber={(id:number) => {setPageNumber({pdfNumber: id})}}/>
+          pageNumber={pageNumber}/>
       </div>
     </div>
   );
