@@ -147,6 +147,7 @@ function PdfHelper( {pageNumber} : {pageNumber: PageNumber} ) {
       ) : (
         <div className="landpage">
           <h1>Imagines Italicae: Rix Index Lookup</h1>
+          v2
           <div className="instructions">
             <h4>Instructions</h4>
             <ol>
@@ -157,25 +158,19 @@ function PdfHelper( {pageNumber} : {pageNumber: PageNumber} ) {
                 you the Imagines Italicae designation (for Um 11, it’s Asisium 4), along with the volume and page
                 number (Volume 1, page 107).</li>
               <li>If you own your own pdf of Imagines Italicae (in a single file), you can upload it to this
-                interface by clicking on the ’Select file’ button below, and when you select an inscription from
-                the left menu, the correct page will load in this space.</li>
+                interface by clicking on the ’Select file’ button below, selecting the file on your computer, and
+                then clickling on the button ‘Go’. Now when you select an inscription from the left menu, the
+                correct page will be displayed in this space. If this doesn't work on Safari, try using Google Chrome.</li>
               <li>If the PDF viewer takes you to page that's off from the intended inscription, you can alleviate
                 this by setting the offset fields:<br/>For example, if you consistently see the page 2 pages
                 ahead of the selected inscription, try setting the offset field for the relevant volume to '2'.
                 <br/>Conversely, use a negative offset if you are led to a position ahead of the selected inscription.
               </li>
             </ol>
-
-            <h4>Credits</h4>
-            This online tool was created during the Wintersemester 2024–2025 by Derek Lesho and Fujia Zhang,
-            as part of the graduate seminar Italische Sprachwissenschaft, taught by Chiara Bozzone (LMU München).
-            If you do not already know why this tool is needed, you can read about it <a href="https://bmcr.brynmawr.edu/2013/2013.06.17/">here</a>
-            <br/><br/>
-            For help and feeback contact <a href="mailto:D.Lesho@campus.lmu.de">D.Lesho@campus.lmu.de</a> or <a href="mailto:dereklesho52@gmail.com">dereklesho52@gmail.com</a>
           </div>
           
           <div className="controls">
-          <h4>Imagines Italicae copy upload</h4>
+            <h4>Imagines Italicae copy upload</h4>
             <input
               type="file"
               accept="application/pdf"
@@ -186,11 +181,19 @@ function PdfHelper( {pageNumber} : {pageNumber: PageNumber} ) {
             Volume II offset: <input id="vol2in" type="number" value={offsetTwo} onChange={(e) => setOffsetTwo(e.target.valueAsNumber)}/><br/>
             Volume III offset: <input id="vol3in" type="number" value={offsetThree} onChange={(e) => setOffsetThree(e.target.valueAsNumber)}/><br/>
             Double Paged: <input id="doubled" type="checkbox" checked={doubled} onChange={(e) => setDoubled(e.target.checked)}/><br/>
-            {pdfFile ? (
-              <button onClick={() => {setLandPage(false)}}>
-                Go
-              </button>
-            ) : <></>}
+
+            <button onClick={() => {setLandPage(false)}} disabled={pdfFile === null}>
+              Go
+            </button>
+          </div>
+
+          <div className="credits">
+            <h4>Credits</h4>
+            This online tool was created during the Wintersemester 2024–2025 by Derek Lesho and Fujia Zhang,
+            as part of the graduate seminar Italische Sprachwissenschaft, taught by Chiara Bozzone (LMU München).
+            If you do not already know why this tool is needed, you can read about it <a href="https://bmcr.brynmawr.edu/2013/2013.06.17/">here</a>
+            <br/><br/>
+            For help and feeback contact <a href="mailto:D.Lesho@campus.lmu.de">D.Lesho@campus.lmu.de</a> or <a href="mailto:dereklesho52@gmail.com">dereklesho52@gmail.com</a>
           </div>
         </div>
       )}
